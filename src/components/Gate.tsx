@@ -71,7 +71,7 @@ export const Gate: React.FC<GateProps> = ({ onSuccess }) => {
 
         <div className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-peachPink/25 text-accentPink text-xs md:text-sm font-black mb-3 border border-peachPink/40 shadow-sm">
           <Sparkles className="w-3.5 h-3.5 text-accentPink" />
-          <span>Món quà 20/10 • Made by Trung Quân 🌸</span>
+          <span>Món quà 20/10 🌸</span>
         </div>
 
         <h1 className="font-handwriting text-4xl md:text-5xl text-[#2B121C] font-black mb-3">
@@ -129,7 +129,7 @@ export const Gate: React.FC<GateProps> = ({ onSuccess }) => {
             className="text-xs text-accentPink/80 hover:text-accentPink underline font-semibold flex items-center justify-center gap-1.5 mx-auto"
           >
             <Sparkles className="w-3.5 h-3.5" />
-            <span>[Chế độ duyệt nhanh: Bấm để vào ngay]</span>
+            <span>Mở xem ngay</span>
           </button>
         </div>
       </motion.div>

@@ -71,8 +71,8 @@ export const HeroSequence: React.FC<HeroSequenceProps> = ({
     const rect = canvas.getBoundingClientRect();
     if (rect.width === 0 || rect.height === 0) return;
 
-    // Cap DPR at 2
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    // Cap DPR at 1.5 on mobile to save GPU memory, 2 on desktop
+    const dpr = Math.min(window.devicePixelRatio || 1, deviceMode === 'mobile' ? 1.5 : 2);
     const targetW = Math.round(rect.width * dpr);
     const targetH = Math.round(rect.height * dpr);
 
@@ -107,9 +107,7 @@ export const HeroSequence: React.FC<HeroSequenceProps> = ({
     ctx.imageSmoothingEnabled = true;
     ctx.imageSmoothingQuality = 'high';
 
-    // COVER fit:
-    // On desktop (16:9 landscape): center focal point vertically (0.5)
-    // On mobile (9:16 portrait): 40% from the top (0.40)
+    // COVER fit
     const imgW = frameBase.width;
     const imgH = frameBase.height;
     const scale = Math.max(targetW / imgW, targetH / imgH);
@@ -130,8 +128,8 @@ export const HeroSequence: React.FC<HeroSequenceProps> = ({
       ctx.globalAlpha = 1;
     }
 
-    // Ambient background blur for ultrawide desktop monitors or borders
-    if (ambientCanvas && ambientCtx) {
+    // Ambient background blur for ultrawide desktop monitors (skip on mobile to preserve RAM)
+    if (deviceMode === 'desktop' && ambientCanvas && ambientCtx) {
       const ambRect = ambientCanvas.getBoundingClientRect();
       const ambW = Math.round(ambRect.width * 0.35);
       const ambH = Math.round(ambRect.height * 0.35);
@@ -200,14 +198,16 @@ export const HeroSequence: React.FC<HeroSequenceProps> = ({
     >
       {/* Sticky Stage Viewport */}
       <div className="sticky top-0 h-screen w-full flex items-center justify-center overflow-hidden">
-        {/* Soft Ambient Blurred Background for Ultra-wide / Surrounding Viewports */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <canvas
-            ref={ambientCanvasRef}
-            className="w-full h-full object-cover filter blur-3xl scale-125 opacity-60 transition-opacity duration-1000"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#FFD6E0]/40 via-transparent to-[#FFD6E0]/80" />
-        </div>
+        {/* Soft Ambient Blurred Background for Ultra-wide / Surrounding Viewports (Desktop only) */}
+        {deviceMode === 'desktop' && (
+          <div className="hidden md:block absolute inset-0 overflow-hidden pointer-events-none">
+            <canvas
+              ref={ambientCanvasRef}
+              className="w-full h-full object-cover filter blur-3xl scale-125 opacity-60 transition-opacity duration-1000"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-[#FFD6E0]/40 via-transparent to-[#FFD6E0]/80" />
+          </div>
+        )}
 
         {/* Main Stage:
             - Desktop: Full widescreen 16:9 canvas (max-w-none w-full h-full)
@@ -222,7 +222,7 @@ export const HeroSequence: React.FC<HeroSequenceProps> = ({
           {/* Main 2D Canvas */}
           <canvas
             ref={canvasRef}
-            className="w-full h-full object-cover transition-opacity duration-700"
+            className="w-full h-full block transition-opacity duration-700 select-none"
             style={{ opacity: isInitialReady ? 1 : 0 }}
           />
 
@@ -264,15 +264,9 @@ export const HeroSequence: React.FC<HeroSequenceProps> = ({
                   🌸 20 Tháng 10 - Ngày Phụ Nữ Việt Nam
                 </span>
 
-                <h3 className="font-handwriting text-2xl md:text-3xl font-bold text-plumText mb-1">
+                <h3 className="font-handwriting text-2xl md:text-3xl font-bold text-plumText mb-6">
                   Đang Chuẩn Bị Điều Kỳ Diệu...
                 </h3>
-
-                <p className="text-xs text-plumText/75 mb-6">
-                  {deviceMode === 'desktop'
-                    ? 'Đang nạp 100 khung cảnh vườn hoa hồng rực rỡ (Bản Desktop 16:9)'
-                    : 'Đang nạp 100 khung cảnh đầm sen yêu thương (Bản Mobile 9:16)'}
-                </p>
 
                 {/* Pink Progress Bar */}
                 <div className="w-full bg-pink-100 rounded-full h-3 p-0.5 overflow-hidden shadow-inner border border-pink-200/50 mb-3">

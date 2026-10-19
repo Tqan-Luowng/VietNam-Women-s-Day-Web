@@ -111,16 +111,16 @@ export const App: React.FC = () => {
 
       {/* Floating Top Header: Made by Trung Quân & Audio Control */}
       <header className="fixed top-3 md:top-4 left-3 md:left-4 right-3 md:right-4 z-50 flex items-center justify-between pointer-events-none">
-        {/* Made by Trung Quân Badge */}
+        {/* Made by Trung Quân Badge (Preserved only at header) */}
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="pointer-events-auto flex items-center gap-2 px-3.5 md:px-4 py-2 rounded-full bg-white/90 backdrop-blur-md shadow-soft-pink border-2 border-white text-xs md:text-sm font-bold text-[#2B121C] select-none hover:shadow-md transition-all"
+          className="pointer-events-auto flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 rounded-full bg-white/90 backdrop-blur-md shadow-soft-pink border-2 border-white text-xs sm:text-sm font-bold text-[#2B121C] select-none hover:shadow-md transition-all max-w-[calc(100%-64px)] truncate"
         >
-          <span className="w-2 md:w-2.5 h-2 md:h-2.5 rounded-full bg-accentPink animate-ping shrink-0" />
+          <span className="w-2 sm:w-2.5 h-2 sm:h-2.5 rounded-full bg-accentPink animate-ping shrink-0" />
           <span className="hidden sm:inline text-accentPink font-black">20/10 Gift</span>
           <span className="hidden sm:inline text-[#2B121C]/30">•</span>
-          <span>Made with ❤️ by <strong className="text-accentPink font-black">Trung Quân</strong></span>
+          <span className="truncate">Made with ❤️ by <strong className="text-accentPink font-black">Trung Quân</strong></span>
         </motion.div>
 
         {/* Audio Toggle */}
@@ -203,7 +203,7 @@ export const App: React.FC = () => {
         </div>
       </section>
 
-      {/* ================= SECTION 3: 3D DEPTH CAROUSEL TRẠM YÊU THƯƠNG ================= */}
+      {/* ================= SECTION 3: TRẠM YÊU THƯƠNG ================= */}
       <MembersDepthSection members={initialContent.members} />
 
       {/* ================= SECTION 4: MÀN KẾT & GỬI LỜI NHẮN ================= */}
@@ -223,7 +223,7 @@ export const App: React.FC = () => {
               Hòm Thư Yêu Thương
             </h3>
             <p className="text-sm md:text-base text-[#4A2533] font-semibold mt-2">
-              Gửi lại vài dòng cảm nghĩ hoặc lời nhắn ngọt ngào cho Trung Quân nhé 💌
+              Gửi lại vài dòng cảm nghĩ hoặc lời nhắn ngọt ngào nhé 💌
             </p>
           </div>
 
@@ -232,7 +232,7 @@ export const App: React.FC = () => {
               <textarea
                 value={userReply}
                 onChange={(e) => setUserReply(e.target.value)}
-                placeholder="Ví dụ: Cảm ơn Trung Quân nhé, chúc con/em luôn vui vẻ và hạnh phúc!..."
+                placeholder="Ví dụ: Chúc gia đình mình luôn vui vẻ và hạnh phúc!..."
                 rows={4}
                 className="w-full p-5 rounded-2xl bg-[#FFF8FA] border-2 border-peachPink/40 text-base md:text-lg text-[#2B121C] font-semibold focus:outline-none focus:border-accentPink transition-all"
               />
@@ -266,14 +266,12 @@ export const App: React.FC = () => {
         </div>
       </section>
 
-      {/* ================= FOOTER: MADE BY TRUNG QUÂN ================= */}
+      {/* ================= FOOTER ================= */}
       <footer className="w-full py-8 md:py-10 text-center border-t-2 border-peachPink/30 bg-white/75 backdrop-blur-md">
         <div className="max-w-md mx-auto px-4 flex flex-col items-center gap-2">
           <div className="flex items-center gap-2 text-xs md:text-sm font-black text-[#2B121C]">
             <Sparkles className="w-4 h-4 text-amber-500" />
             <span>Món Quà Yêu Thương 20/10</span>
-            <span className="text-[#2B121C]/40">•</span>
-            <span>Made with ❤️ by <span className="text-accentPink underline decoration-peachPink decoration-2 underline-offset-4 font-black">Trung Quân</span></span>
           </div>
           <p className="text-xs text-[#6B3A4F] font-semibold">
             Dành tặng trọn vẹn tình cảm đến những người phụ nữ tuyệt vời nhất của gia đình 🌸
