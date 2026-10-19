@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #FFF5F7;
+  --color-pastel-pink: #FFD6E0;
+  --color-peach-pink: #FFB6C8;
+  --color-accent-pink: #E8799A;
+  --color-plum-text: #2B121C;
+  --color-butter-yellow: #FFE8B8;
+  --color-mint-pale: #D4F0E6;
+}
+
+/* Custom background with subtle warm gradient & bokeh glow */
+body {
+  background: radial-gradient(circle at 20% 15%, #FFF0F4 0%, #FFF5F7 50%, #FFEBF0 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Be Vietnam Pro', 'Nunito', 'Quicksand', sans-serif;
+  color: #2B121C;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* 3D Card Flip utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Sticker pop glow & bounce */
+@keyframes idleFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(2deg);
+  }
+}
+
+.animate-idle-float {
+  animation: idleFloat 3.5s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF5F7;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFB6C8;
+  border-radius: 9999px;
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradEm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1F2" />
+      <stop offset="100%" stop-color="#FFE4E6" />
+    </linearGradient>
+    <filter id="shadowEm" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#F43F5E" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgGradEm)" />
+  <circle cx="200" cy="200" r="160" fill="#FFF" opacity="0.6"/>
+  <!-- Em Gai portrait illustration - twin ribbons, cute and youthful -->
+  <g filter="url(#shadowEm)">
+    <!-- Long hair behind -->
+    <path d="M110 180 C110 80 290 80 290 180 C290 280 270 340 260 380 C240 380 160 380 140 380 C130 340 110 280 110 180 Z" fill="#3B232C" />
+    <!-- Clothes -->
+    <path d="M120 380 C120 310 155 280 200 280 C245 280 280 310 280 380 Z" fill="#FB7185" />
+    <circle cx="200" cy="310" r="12" fill="#FFF" />
+    <!-- Neck -->
+    <rect x="188" y="240" width="24" height="42" rx="10" fill="#FFDFD3" />
+    <!-- Face -->
+    <ellipse cx="200" cy="180" rx="56" ry="66" fill="#FFEAE0" />
+    <!-- Bangs -->
+    <path d="M136 165 C146 128 178 122 200 135 C222 122 254 128 264 165 C250 142 220 138 200 146 C180 138 150 142 136 165 Z" fill="#3B232C" />
+    <!-- Twin Ribbons -->
+    <path d="M125 150 Q110 135 120 120 Q135 135 130 150 Z" fill="#F43F5E" />
+    <circle cx="130" cy="145" r="6" fill="#FFE4E6" />
+    <path d="M275 150 Q290 135 280 120 Q265 135 270 150 Z" fill="#F43F5E" />
+    <circle cx="270" cy="145" r="6" fill="#FFE4E6" />
+    <!-- Eyes smiling with sparkles -->
+    <circle cx="176" cy="182" r="6" fill="#3B232C" />
+    <circle cx="178" cy="180" r="2" fill="#FFF" />
+    <circle cx="224" cy="182" r="6" fill="#3B232C" />
+    <circle cx="226" cy="180" r="2" fill="#FFF" />
+    <!-- Blush -->
+    <ellipse cx="160" cy="196" rx="12" ry="7" fill="#FDA4AF" opacity="0.75" />
+    <ellipse cx="240" cy="196" rx="12" ry="7" fill="#FDA4AF" opacity="0.75" />
+    <!-- Sweet Smile -->
+    <path d="M188 206 Q200 218 212 206" stroke="#E11D48" stroke-width="3.5" stroke-linecap="round" fill="none" />
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradMo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE4E6" />
+      <stop offset="100%" stop-color="#FECDD3" />
+    </linearGradient>
+    <filter id="shadowMo" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#E11D48" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgGradMo)" />
+  <circle cx="200" cy="200" r="160" fill="#FFF" opacity="0.6"/>
+  <!-- Mo (Aunt / Uncle's wife) portrait illustration - stylish, charming, cheerful -->
+  <g filter="url(#shadowMo)">
+    <!-- Stylish layered wavy hair -->
+    <path d="M115 180 C110 70 290 70 285 180 C290 260 270 310 250 330 C230 300 210 260 200 260 C190 260 170 300 150 330 C130 310 110 260 115 180 Z" fill="#2E1020" />
+    <!-- Clothes (rose pink top) -->
+    <path d="M115 380 C115 300 150 270 200 270 C250 270 285 300 285 380 Z" fill="#FB7185" />
+    <path d="M180 270 C190 290 210 290 220 270 Z" fill="#FFF1F2" />
+    <!-- Neck -->
+    <rect x="188" y="238" width="24" height="40" rx="10" fill="#FFD8C9" />
+    <!-- Face -->
+    <ellipse cx="200" cy="180" rx="56" ry="66" fill="#FFE5D9" />
+    <!-- Bangs -->
+    <path d="M142 165 C155 125 245 125 258 165 C242 140 220 135 200 146 C180 135 158 140 142 165 Z" fill="#2E1020" />
+    <!-- Cute hair bow -->
+    <circle cx="248" cy="140" r="8" fill="#F43F5E" />
+    <!-- Rosy cheeks -->
+    <ellipse cx="165" cy="198" rx="12" ry="7" fill="#FB7185" opacity="0.6" />
+    <ellipse cx="235" cy="198" rx="12" ry="7" fill="#FB7185" opacity="0.6" />
+    <!-- Bright joyful eyes -->
+    <circle cx="174" cy="176" r="4.5" fill="#2E1020" />
+    <circle cx="226" cy="176" r="4.5" fill="#2E1020" />
+    <circle cx="172" cy="174" r="1.5" fill="#FFF" />
+    <circle cx="224" cy="174" r="1.5" fill="#FFF" />
+    <!-- Cheerful big smile -->
+    <path d="M186 206 Q200 222 214 206" stroke="#BE123C" stroke-width="2.8" stroke-linecap="round" fill="none" />
+  </g>
+</svg>

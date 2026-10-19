@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <rect width="400" height="400" rx="36" fill="#FFF1F2" />
+  <circle cx="200" cy="180" r="140" fill="#FFE4E6" />
+  <!-- Dango and flower sticker art -->
+  <g transform="translate(185, 80)">
+    <line x1="15" y1="20" x2="15" y2="180" stroke="#B45309" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="15" cy="50" r="26" fill="#F472B6"/>
+    <circle cx="15" cy="100" r="26" fill="#FFF"/>
+    <circle cx="15" cy="150" r="26" fill="#86EFAC"/>
+  </g>
+  <text x="200" y="315" font-family="'Dancing Script', cursive, sans-serif" font-size="30" font-weight="bold" fill="#E11D48" text-anchor="middle">Dì Út</text>
+  <text x="200" y="345" font-family="'Quicksand', sans-serif" font-size="16" font-weight="600" fill="#BE123C" text-anchor="middle">Mãi Mãi Tuổi 18</text>
+</svg>

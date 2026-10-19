@@ -1,0 +1,313 @@
+{
+  "generalLetter": "Nhân ngày Phụ nữ Việt Nam 20/10, con/em xin gửi trọn vẹn tình cảm, sự biết ơn và lòng kính trọng sâu sắc nhất đến tất cả những người phụ nữ tuyệt vời trong gia đình mình. Cảm ơn Mẹ, Chị, Dì và Em đã luôn là hậu phương ấm áp, mang lại nụ cười, tình yêu thương và sự dịu dàng cho mái ấm của chúng ta. Chúc một nửa dịu dàng của thế giới luôn rạng ngời, mạnh khỏe, an yên và ngập tràn hạnh phúc mỗi ngày!",
+  "members": [
+    {
+      "id": "me-yeu",
+      "name": "Mẹ",
+      "callName": "Mẹ yêu",
+      "accentColor": "#E8799A",
+      "stickers": ["strawberry", "tea", "cake", "bear"],
+      "photo": "/api/photo?id=me-yeu",
+      "backPhoto": "/api/photo?id=me-yeu-back",
+      "message": "Cảm ơn Mẹ vì cả đời luôn tần tảo chăm lo cho gia đình, từ những bữa cơm thơm lừng ấm áp đến từng lời dặn dò ân cần. Mẹ chính là chỗ dựa bình yên và dịu dàng nhất trong tim con. Chúc Mẹ yêu ngày 20/10 thật nhiều niềm vui, luôn mạnh khỏe, trẻ đẹp và mỗi ngày trôi qua đều ngập tràn tiếng cười!",
+      "backNote": "Kỷ niệm chuyến đi biển cả nhà - Nụ cười của Mẹ luôn là điều quý giá nhất với chúng con!",
+      "quiz": [
+        {
+          "question": "Món ăn nào của Mẹ mà con mê mẩn nhất từ bé đến giờ?",
+          "options": [
+            {
+              "text": "Thịt kho hột vịt đậm đà thấm vị",
+              "reply": "Dạ đúng rồi ạ! Nồi thịt kho của Mẹ ngon số 1 trần đời, đi khắp bốn bể cũng không tìm đâu ra hương vị ấy!",
+              "sticker": "cake"
+            },
+            {
+              "text": "Canh chua cá ấm bụng ngày mưa",
+              "reply": "Chuẩn gu luôn Mẹ ơi! Vị chua ngọt đậm đà, ăn cùng cơm nóng là con ăn sạch 3 bát cơm!",
+              "sticker": "strawberry"
+            },
+            {
+              "text": "Món gì Mẹ nấu con cũng vét sạch nồi",
+              "reply": "Hihi câu trả lời chuẩn 100 điểm! Đồ Mẹ nấu lúc nào cũng ngập tràn yêu thương và ngọt ngào nhất!",
+              "sticker": "bear"
+            }
+          ]
+        },
+        {
+          "question": "Nếu hôm nay được cả nhà phục vụ từ A đến Z, Mẹ sẽ làm gì?",
+          "options": [
+            {
+              "text": "Nghỉ ngơi, xem bộ phim yêu thích thật thảnh thơi",
+              "reply": "Hôm nay Mẹ cứ yên tâm tận hưởng nhé, việc nhà tụi con bao trọn gói rồi ạ!",
+              "sticker": "tea"
+            },
+            {
+              "text": "Đi làm đẹp, cà phê chuyện trò cùng hội bạn",
+              "reply": "Tuyệt vời luôn Mẹ ơi! Mẹ lúc nào cũng phải rạng rỡ và xinh đẹp nhất xóm!",
+              "sticker": "strawberry"
+            },
+            {
+              "text": "Chỉ cần cả nhà quây quần vui vẻ bên mâm cơm",
+              "reply": "Mẹ lúc nào cũng nghĩ cho gia đình trước tiên. Yêu Mẹ nhiều lắm ạ!",
+              "sticker": "bear"
+            }
+          ]
+        },
+        {
+          "question": "Bí quyết để Mẹ luôn giữ được nụ cười phúc hậu và trẻ lâu?",
+          "options": [
+            {
+              "text": "Uống nhiều nước và suy nghĩ tích cực",
+              "reply": "Bí kíp sống xanh sống khỏe của Mẹ chuẩn không cần chỉnh!",
+              "sticker": "tea"
+            },
+            {
+              "text": "Tâm luôn an yên và thương yêu gia đình",
+              "reply": "Chính tình thương bao la của Mẹ đã làm cho Mẹ luôn tỏa sáng ấm áp!",
+              "sticker": "cake"
+            },
+            {
+              "text": "Nhờ có đàn con ngoan ngoãn (dù đôi khi hơi nghịch)",
+              "reply": "Hì hì con hứa từ nay sẽ ngoan hơn nữa để Mẹ cười thật nhiều mỗi ngày!",
+              "sticker": "bear"
+            }
+          ]
+        }
+      ],
+      "badge": {
+        "title": "Bếp Trưởng Trái Tim & Nữ Hoàng Yêu Thương",
+        "description": "Người phụ nữ vĩ đại nhất, luôn bao bọc và giữ ngọn lửa ấm áp cho cả gia đình!"
+      }
+    },
+    {
+      "id": "chi-hai",
+      "name": "Chị Hai",
+      "callName": "Chị Hai đảm đang",
+      "accentColor": "#F472B6",
+      "stickers": ["boba", "donut", "icecream", "bunny"],
+      "photo": "/api/photo?id=chi-hai",
+      "backPhoto": "/api/photo?id=chi-hai-back",
+      "message": "Cảm ơn Chị Hai luôn che chở, chia sẻ và đồng hành cùng em. Chị vừa là người chị lớn mẫu mực, vừa là bạn tâm tình thân thiết nhất. Chúc Chị ngày 20/10 rạng rỡ, ngày càng xinh đẹp, công việc hanh thông và sớm đạt được mọi dự định nhé!",
+      "backNote": "Chị em mình luôn là đồng minh bất bại, bất kể có chuyện gì xảy ra!",
+      "quiz": [
+        {
+          "question": "Món quà 20/10 lý tưởng nhất hôm nay của Chị Hai là gì?",
+          "options": [
+            {
+              "text": "Một ngày ngủ nướng không báo thức và không deadline",
+              "reply": "Ước mơ quốc dân! Chúc Chị hôm nay sạc 100% pin năng lượng nhé!",
+              "sticker": "donut"
+            },
+            {
+              "text": "Một ly trà sữa full topping siêu to khổng lồ",
+              "reply": "Trà sữa vị hạnh phúc, 0% đường mệt mỏi, 100% thạch yêu đời tới ngay!",
+              "sticker": "boba"
+            },
+            {
+              "text": "Em trai ngoan ngoãn nghe lời cả ngày",
+              "reply": "Dạ em sẵn sàng phục vụ Chị Hai hôm nay với phong độ 5 sao luôn!",
+              "sticker": "bunny"
+            }
+          ]
+        },
+        {
+          "question": "Điều gì giúp Chị Hai xả stress nhanh nhất sau giờ làm việc?",
+          "options": [
+            {
+              "text": "Lướt Shopee săn sale ngập tràn mã giảm giá",
+              "reply": "Mã freeship và mã vui vẻ đã áp dụng thành công cho ngày 20/10 của Chị!",
+              "sticker": "icecream"
+            },
+            {
+              "text": "Nghe nhạc chill chill và skincare dưỡng da",
+              "reply": "Vừa thư giãn vừa xinh đẹp chuẩn visual Chị Hai nhà mình rồi!",
+              "sticker": "bunny"
+            },
+            {
+              "text": "Tâm sự xàm xí rôm rả với đứa em cưng",
+              "reply": "Em luôn ở đây sẵn sàng lắng nghe mọi chuyện trên trời dưới biển cùng Chị!",
+              "sticker": "boba"
+            }
+          ]
+        },
+        {
+          "question": "Nếu được tặng 1 chuyến du lịch, Chị Hai sẽ chọn đi đâu?",
+          "options": [
+            {
+              "text": "Đà Lạt mát lạnh ăn bánh tráng nướng uống sữa đậu nành",
+              "reply": "Set kèo ngay thôi Chị ơi, Đà Lạt đang chờ Chị check-in sống ảo!",
+              "sticker": "donut"
+            },
+            {
+              "text": "Nha Trang hay Phú Quốc ngắm biển xanh cát trắng",
+              "reply": "Vitamin sea chữa lành mọi mệt mỏi, chúc Chị có những chuyến đi rực rỡ!",
+              "sticker": "icecream"
+            },
+            {
+              "text": "Đi đâu cũng được miễn là có đồ ăn ngon và người thân đi cùng",
+              "reply": "Chuẩn tinh thần gia đình mình, đi đâu cùng nhau cũng vui hết nấc!",
+              "sticker": "bunny"
+            }
+          ]
+        }
+      ],
+      "badge": {
+        "title": "Nữ Hoàng Đừng-Lo-Cứ-Để-Chị & Trùm Xinh Đẹp",
+        "description": "Người chị chu đáo, bản lĩnh và luôn mang lại niềm vui cho cả nhà!"
+      }
+    },
+    {
+      "id": "di-ut",
+      "name": "Dì Út",
+      "callName": "Dì Út xì-tin",
+      "accentColor": "#FB7185",
+      "stickers": ["dango", "sushi", "fruit", "flower_cute"],
+      "photo": "/api/photo?id=di-ut",
+      "backPhoto": "/api/photo?id=di-ut-back",
+      "message": "Gửi Dì Út yêu quý! Cảm ơn Dì luôn mang đến tiếng cười rộn rã và nguồn năng lượng tích cực bất tận cho cả gia đình. Chúc Dì 20/10 luôn tươi trẻ, yêu đời, may mắn ngập tràn và mãi là thần tượng vui tính của các cháu!",
+      "backNote": "Dì Út mãi mãi tuổi 18 trong lòng các cháu!",
+      "quiz": [
+        {
+          "question": "Nét đặc trưng nhất không lẫn vào đâu được của Dì Út là gì?",
+          "options": [
+            {
+              "text": "Tiếng cười giòn tan rộn rã khắp nhà",
+              "reply": "Haha đúng luôn ạ! Nghe tiếng cười của Dì là bao nhiêu mệt mỏi tan biến hết!",
+              "sticker": "flower_cute"
+            },
+            {
+              "text": "Gu ăn mặc trẻ trung, bắt trend cực nhạy",
+              "reply": "Dì Út xì-tin số 1 không ai dám nhận số 2 luôn nha!",
+              "sticker": "fruit"
+            },
+            {
+              "text": "Rất tâm lý và hay mua quà bánh cho các cháu",
+              "reply": "Dì Út tâm lý nhất quả đất, cháu nào cũng mê tít thò lò!",
+              "sticker": "dango"
+            }
+          ]
+        },
+        {
+          "question": "Bí quyết giúp Dì Út luôn trẻ trung tràn đầy năng lượng?",
+          "options": [
+            {
+              "text": "Ăn ngon, ngủ kỹ, không lo nghĩ nhiều",
+              "reply": "Triết lý sống thảnh thơi chuẩn chỉ, chúc Dì mãi an vui!",
+              "sticker": "sushi"
+            },
+            {
+              "text": "Luôn lạc quan và tìm thấy niềm vui trong những điều giản dị",
+              "reply": "Năng lượng tích cực của Dì lan tỏa tới tất cả mọi người xung quanh!",
+              "sticker": "flower_cute"
+            },
+            {
+              "text": "Nhờ ở gần các cháu xì-tin nên được 'lây' sự trẻ trung",
+              "reply": "Hihi các cháu sẵn sàng làm Dì trẻ mãi không già luôn ạ!",
+              "sticker": "dango"
+            }
+          ]
+        },
+        {
+          "question": "Lời chúc 20/10 Dì Út muốn nhận được nhất hôm nay?",
+          "options": [
+            {
+              "text": "Tiền tài rủng rỉnh, lộc lá đầy nhà",
+              "reply": "Chúc Dì Út năm nay tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin!",
+              "sticker": "fruit"
+            },
+            {
+              "text": "Mãi xinh đẹp, trẻ trung quên tuổi tác",
+              "reply": "Thời gian bỏ quên Dì Út rồi, mãi mãi như thuở đôi mươi!",
+              "sticker": "flower_cute"
+            },
+            {
+              "text": "Cả nhà luôn mạnh khỏe và yêu thương nhau",
+              "reply": "Dạ vâng ạ, cả nhà mình sẽ mãi bên nhau ấm áp như thế này!",
+              "sticker": "sushi"
+            }
+          ]
+        }
+      ],
+      "badge": {
+        "title": "Đại Sứ Nụ Cười & Nữ Thần Xì-Tin",
+        "description": "Cây hài duyên dáng và người lan tỏa vitamin hạnh phúc khắp mọi nơi!"
+      }
+    },
+    {
+      "id": "em-gai",
+      "name": "Bé Út",
+      "callName": "Em Gái cưng",
+      "accentColor": "#F43F5E",
+      "stickers": ["mochi", "coffee", "cake", "bear_flower"],
+      "photo": "/api/photo?id=em-gai",
+      "backPhoto": "/api/photo?id=em-gai-back",
+      "message": "Gửi cô em gái nhỏ đáng yêu! Chúc em ngày 20/10 luôn rạng ngời như ánh mặt trời, học tập thật tốt, gặp nhiều may mắn và đạt được mọi điều mình hằng mong ước. Dù có lớn thế nào thì trong mắt cả nhà, em vẫn mãi là cô bé dễ thương cần được nâng niu!",
+      "backNote": "Chúc em gái luôn vững tin trên con đường mình chọn, anh hai luôn ở phía sau ủng hộ!",
+      "quiz": [
+        {
+          "question": "Món ăn vặt nào là 'chân ái' số 1 của em gái?",
+          "options": [
+            {
+              "text": "Bánh mochi mềm dẻo ngập kem tươi",
+              "reply": "Ăn ngọt cho đời ngọt ngào, chúc em gái lúc nào cũng vui vẻ!",
+              "sticker": "mochi"
+            },
+            {
+              "text": "Bánh tráng trộn, trà đào cam sả trước cổng trường",
+              "reply": "Combo tuổi học trò huyền thoại, nhắc tới là thèm liền!",
+              "sticker": "coffee"
+            },
+            {
+              "text": "Bất cứ món gì ngon mà anh hai mua cho",
+              "reply": "Biết nịnh quá ha! Lát anh hai dẫn đi ăn tẹt ga luôn!",
+              "sticker": "bear_flower"
+            }
+          ]
+        },
+        {
+          "question": "Mỗi lần muốn xin xỏ việc gì, 'tuyệt chiêu' của em gái là:",
+          "options": [
+            {
+              "text": "Mắt chớp chớp tỏ vẻ ngây thơ vô số tội",
+              "reply": "Chiêu này sát thương 100%, ai mà nỡ từ chối được cô bé này chứ!",
+              "sticker": "bear_flower"
+            },
+            {
+              "text": "Nịnh ngọt như rót mật vào tai",
+              "reply": "Mật ngọt chết ruồi, nịnh một câu là anh hai mềm lòng ngay!",
+              "sticker": "cake"
+            },
+            {
+              "text": "Phụng phịu làm nũng một chút xíu",
+              "reply": "Đáng yêu thế này thì cả nhà đều chiều em hết nấc!",
+              "sticker": "mochi"
+            }
+          ]
+        },
+        {
+          "question": "Mục tiêu lớn nhất năm nay của em gái là gì?",
+          "options": [
+            {
+              "text": "Đạt điểm số cao chót vót, rinh học bổng",
+              "reply": "Cố lên nhé em gái tài năng, anh tin em chắc chắn làm được!",
+              "sticker": "coffee"
+            },
+            {
+              "text": "Xinh gái hơn, cao thêm vài centimet nữa",
+              "reply": "Visual chuẩn hotgirl tương lai rồi, tự tin tỏa sáng nha!",
+              "sticker": "bear_flower"
+            },
+            {
+              "text": "Gia đình luôn bình an và được đi du lịch thật nhiều nơi",
+              "reply": "Tuyệt vời lắm em gái nhỏ! Gia đình luôn là điều thiêng liêng nhất!",
+              "sticker": "cake"
+            }
+          ]
+        }
+      ],
+      "badge": {
+        "title": "Tiểu Công Chúa Hạt Dẻ & Mầm Non Đáng Yêu",
+        "description": "Em gái nhỏ thông minh, lém lỉnh và luôn được cả nhà nâng niu hết mực!"
+      }
+    }
+  ]
+}

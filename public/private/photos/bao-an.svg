@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradBaoAn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <filter id="shadowBaoAn" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#F59E0B" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgGradBaoAn)" />
+  <circle cx="200" cy="200" r="160" fill="#FFF" opacity="0.6"/>
+  <!-- Bao An cute girl portrait illustration -->
+  <g filter="url(#shadowBaoAn)">
+    <!-- Two cute side buns/pigtails -->
+    <circle cx="120" cy="130" r="28" fill="#1F2937" />
+    <circle cx="280" cy="130" r="28" fill="#1F2937" />
+    <!-- Yellow cute bow ribbons -->
+    <circle cx="132" cy="142" r="8" fill="#F59E0B" />
+    <circle cx="268" cy="142" r="8" fill="#F59E0B" />
+    <!-- Main hair -->
+    <path d="M125 180 C118 90 282 90 275 180 C278 240 260 270 248 275 C230 250 170 250 152 275 C140 270 122 240 125 180 Z" fill="#1F2937" />
+    <!-- Clothes (warm honey yellow top) -->
+    <path d="M120 380 C120 305 155 275 200 275 C245 275 280 305 280 380 Z" fill="#F59E0B" />
+    <path d="M180 275 C190 295 210 295 220 275 Z" fill="#FFFBEB" />
+    <!-- Neck -->
+    <rect x="189" y="242" width="22" height="36" rx="10" fill="#FFD8C9" />
+    <!-- Chubby cute face -->
+    <ellipse cx="200" cy="182" rx="56" ry="62" fill="#FFE5D9" />
+    <!-- Cute straight bangs -->
+    <path d="M144 165 C160 142 240 142 256 165 C240 150 220 148 200 152 C180 148 160 150 144 165 Z" fill="#1F2937" />
+    <!-- Big chubby rosy cheeks -->
+    <ellipse cx="162" cy="198" rx="13" ry="8" fill="#FB7185" opacity="0.6" />
+    <ellipse cx="238" cy="198" rx="13" ry="8" fill="#FB7185" opacity="0.6" />
+    <!-- Big sparkly innocent eyes -->
+    <circle cx="174" cy="178" r="5.5" fill="#1F2937" />
+    <circle cx="226" cy="178" r="5.5" fill="#1F2937" />
+    <circle cx="172" cy="175" r="2.2" fill="#FFF" />
+    <circle cx="224" cy="175" r="2.2" fill="#FFF" />
+    <circle cx="176" cy="180" r="1" fill="#FFF" />
+    <circle cx="228" cy="180" r="1" fill="#FFF" />
+    <!-- Super cute joyful smile -->
+    <path d="M188 206 Q200 222 212 206" stroke="#D97706" stroke-width="3" stroke-linecap="round" fill="none" />
+  </g>
+</svg>

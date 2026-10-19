@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradNgocAnh" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1F2" />
+      <stop offset="100%" stop-color="#FFE4E6" />
+    </linearGradient>
+    <filter id="shadowNgocAnh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#F43F5E" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgGradNgocAnh)" />
+  <circle cx="200" cy="200" r="160" fill="#FFF" opacity="0.6"/>
+  <!-- Ngoc Anh cute girl portrait illustration -->
+  <g filter="url(#shadowNgocAnh)">
+    <!-- Back wavy hair locks -->
+    <path d="M125 180 C110 240 120 300 135 320 C145 320 150 280 148 240 Z" fill="#292524" />
+    <path d="M275 180 C290 240 280 300 265 320 C255 320 250 280 252 240 Z" fill="#292524" />
+    <!-- Main hair base -->
+    <path d="M130 180 C120 85 280 85 270 180 C272 230 255 260 245 268 C225 245 175 245 155 268 C145 260 128 230 130 180 Z" fill="#292524" />
+    <!-- Clothes (strawberry coral pink top with cute scalloped collar) -->
+    <path d="M120 380 C120 300 155 275 200 275 C245 275 280 300 280 380 Z" fill="#F43F5E" />
+    <path d="M175 275 C185 290 195 292 200 292 C205 292 215 290 225 275 Z" fill="#FFF" />
+    <!-- Cute collar flower pin -->
+    <circle cx="200" cy="292" r="5" fill="#FBBF24" />
+    <!-- Neck -->
+    <rect x="189" y="240" width="22" height="38" rx="10" fill="#FFD8C9" />
+    <!-- Face -->
+    <ellipse cx="200" cy="180" rx="55" ry="60" fill="#FFE5D9" />
+    <!-- Front bangs and side lock with hair accessory -->
+    <path d="M142 165 C155 140 245 140 258 165 C240 152 220 150 200 154 C180 150 160 152 142 165 Z" fill="#292524" />
+    <!-- Hair clip on right side -->
+    <circle cx="248" cy="148" r="8" fill="#F43F5E" />
+    <circle cx="248" cy="148" r="4" fill="#FFF" />
+    <!-- Rosy cheeks -->
+    <ellipse cx="164" cy="195" rx="12" ry="7" fill="#FB7185" opacity="0.6" />
+    <ellipse cx="236" cy="195" rx="12" ry="7" fill="#FB7185" opacity="0.6" />
+    <!-- Sparkly round eyes -->
+    <circle cx="175" cy="176" r="5.5" fill="#292524" />
+    <circle cx="225" cy="176" r="5.5" fill="#292524" />
+    <circle cx="173" cy="173" r="2.2" fill="#FFF" />
+    <circle cx="223" cy="173" r="2.2" fill="#FFF" />
+    <circle cx="177" cy="178" r="1" fill="#FFF" />
+    <circle cx="227" cy="178" r="1" fill="#FFF" />
+    <!-- Sweet happy smile -->
+    <path d="M188 204 Q200 220 212 204" stroke="#BE123C" stroke-width="3" stroke-linecap="round" fill="none" />
+  </g>
+</svg>

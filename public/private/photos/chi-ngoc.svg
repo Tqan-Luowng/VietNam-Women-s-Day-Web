@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradChiNgoc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3FF" />
+      <stop offset="100%" stop-color="#EDE9FE" />
+    </linearGradient>
+    <filter id="shadowChiNgoc" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#8B5CF6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgGradChiNgoc)" />
+  <circle cx="200" cy="200" r="160" fill="#FFF" opacity="0.6"/>
+  <!-- Chi Ngoc portrait illustration -->
+  <g filter="url(#shadowChiNgoc)">
+    <!-- Soft chestnut wavy hair -->
+    <path d="M115 180 C110 75 290 75 285 180 C290 260 275 320 255 350 C235 310 215 265 200 265 C185 265 165 310 145 350 C125 320 110 260 115 180 Z" fill="#44281D" />
+    <!-- Clothes (lavender purple blouse) -->
+    <path d="M118 380 C118 300 152 270 200 270 C248 270 282 300 282 380 Z" fill="#8B5CF6" />
+    <path d="M180 270 C190 290 210 290 220 270 Z" fill="#F5F3FF" />
+    <!-- Neck -->
+    <rect x="189" y="238" width="22" height="40" rx="10" fill="#FFD8C9" />
+    <!-- Face -->
+    <ellipse cx="200" cy="180" rx="55" ry="65" fill="#FFE5D9" />
+    <!-- Bangs -->
+    <path d="M144 162 C158 128 242 128 256 162 C242 140 220 134 200 144 C180 134 158 140 144 162 Z" fill="#44281D" />
+    <!-- Lavender ribbon bow -->
+    <circle cx="246" cy="142" r="7" fill="#A78BFA" />
+    <!-- Rosy cheeks -->
+    <ellipse cx="165" cy="197" rx="11" ry="6.5" fill="#A78BFA" opacity="0.5" />
+    <ellipse cx="235" cy="197" rx="11" ry="6.5" fill="#A78BFA" opacity="0.5" />
+    <!-- Gentle eyes -->
+    <circle cx="174" cy="176" r="4.5" fill="#44281D" />
+    <circle cx="226" cy="176" r="4.5" fill="#44281D" />
+    <circle cx="172" cy="174" r="1.5" fill="#FFF" />
+    <circle cx="224" cy="174" r="1.5" fill="#FFF" />
+    <!-- Soft sweet smile -->
+    <path d="M187 206 Q200 220 213 206" stroke="#6D28D9" stroke-width="2.8" stroke-linecap="round" fill="none" />
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradBaPhong" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5FF" />
+      <stop offset="100%" stop-color="#F3E8FF" />
+    </linearGradient>
+    <filter id="shadowBaPhong" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#9333EA" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgGradBaPhong)" />
+  <circle cx="200" cy="200" r="160" fill="#FFF" opacity="0.6"/>
+  <!-- Ba Phong portrait illustration -->
+  <g filter="url(#shadowBaPhong)">
+    <!-- Gentle bob hair -->
+    <path d="M122 175 C115 80 285 80 278 175 C282 245 260 275 245 280 C230 250 170 250 155 280 C140 275 118 245 122 175 Z" fill="#3B2647" />
+    <!-- Clothes (lilac purple elegant top) -->
+    <path d="M110 380 C110 295 150 265 200 265 C250 265 290 295 290 380 Z" fill="#9333EA" />
+    <path d="M175 265 C185 285 215 285 225 265 Z" fill="#FAF5FF" />
+    <!-- Neck -->
+    <rect x="186" y="235" width="28" height="40" rx="10" fill="#FFD8C9" />
+    <!-- Face -->
+    <ellipse cx="200" cy="180" rx="58" ry="66" fill="#FFE5D9" />
+    <!-- Bangs -->
+    <path d="M142 158 C158 132 242 132 258 158 C242 142 220 136 200 144 C180 136 158 142 142 158 Z" fill="#3B2647" />
+    <!-- Silver Pearl Earrings -->
+    <circle cx="138" cy="192" r="5" fill="#E2E8F0" />
+    <circle cx="262" cy="192" r="5" fill="#E2E8F0" />
+    <!-- Rosy cheeks -->
+    <ellipse cx="162" cy="196" rx="12" ry="7" fill="#C084FC" opacity="0.45" />
+    <ellipse cx="238" cy="196" rx="12" ry="7" fill="#C084FC" opacity="0.45" />
+    <!-- Smiling kind eyes -->
+    <circle cx="172" cy="175" r="4.5" fill="#3B2647" />
+    <circle cx="228" cy="175" r="4.5" fill="#3B2647" />
+    <circle cx="170" cy="173" r="1.5" fill="#FFF" />
+    <circle cx="226" cy="173" r="1.5" fill="#FFF" />
+    <!-- Gentle peaceful smile -->
+    <path d="M185 205 Q200 220 215 205" stroke="#6B21A8" stroke-width="3" stroke-linecap="round" fill="none" />
+  </g>
+</svg>

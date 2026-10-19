@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradBa" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE7F3" />
+      <stop offset="100%" stop-color="#FBCFE8" />
+    </linearGradient>
+    <filter id="shadowBa" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#DB2777" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgGradBa)" />
+  <circle cx="200" cy="200" r="160" fill="#FFF" opacity="0.6"/>
+  <!-- Ba (Aunt / Elder Sister) portrait illustration - dignified, graceful, caring -->
+  <g filter="url(#shadowBa)">
+    <!-- Short curly dignified hair -->
+    <path d="M120 180 C110 80 290 80 280 180 C280 240 265 260 250 270 C230 250 170 250 150 270 C135 260 120 240 120 180 Z" fill="#374151" />
+    <!-- Clothes (elegant magenta/pink blouse) -->
+    <path d="M110 380 C110 295 150 265 200 265 C250 265 290 295 290 380 Z" fill="#DB2777" />
+    <path d="M175 265 C185 285 215 285 225 265 Z" fill="#FCE7F3" />
+    <!-- Neck -->
+    <rect x="186" y="235" width="28" height="40" rx="10" fill="#FFD8C9" />
+    <!-- Face -->
+    <ellipse cx="200" cy="180" rx="58" ry="66" fill="#FFE5D9" />
+    <!-- Bangs -->
+    <path d="M140 160 C155 130 245 130 260 160 C245 140 220 135 200 145 C180 135 155 140 140 160 Z" fill="#374151" />
+    <!-- Elegant gold earrings -->
+    <circle cx="138" cy="190" r="5" fill="#F59E0B" />
+    <circle cx="262" cy="190" r="5" fill="#F59E0B" />
+    <!-- Rosy cheeks -->
+    <ellipse cx="162" cy="195" rx="12" ry="7" fill="#F472B6" opacity="0.5" />
+    <ellipse cx="238" cy="195" rx="12" ry="7" fill="#F472B6" opacity="0.5" />
+    <!-- Smiling eyes -->
+    <circle cx="172" cy="175" r="4.5" fill="#374151" />
+    <circle cx="228" cy="175" r="4.5" fill="#374151" />
+    <circle cx="170" cy="173" r="1.5" fill="#FFF" />
+    <circle cx="226" cy="173" r="1.5" fill="#FFF" />
+    <!-- Dignified warm smile -->
+    <path d="M185 205 Q200 220 215 205" stroke="#9D174D" stroke-width="3" stroke-linecap="round" fill="none" />
+  </g>
+</svg>

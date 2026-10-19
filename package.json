@@ -1,0 +1,42 @@
+{
+  "name": "mon-qua-20-10",
+  "version": "1.0.0",
+  "description": "Trang web thiệp chúc mừng 20/10 3D tương tác dành tặng đại gia đình • Made by Trung Quân",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/animejs": "^3.1.13",
+    "animejs": "^4.5.0",
+    "gsap": "^3.15.0",
+    "motion": "^14.4.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/cookie": "^0.6.0",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.1",
+    "canvas-confetti": "^1.9.4",
+    "cookie": "^2.0.1",
+    "framer-motion": "^14.3.1",
+    "html-to-image": "^1.11.13",
+    "lucide-react": "^1.59.0",
+    "oxlint": "^1.88.0",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^3.4.19",
+    "three": "^0.186.1",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.4"
+  }
+}

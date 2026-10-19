@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0F7" />
+      <stop offset="100%" stop-color="#FCE7F3" />
+    </linearGradient>
+    <filter id="shadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#F472B6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgGrad2)" />
+  <circle cx="200" cy="200" r="160" fill="#FFF" opacity="0.6"/>
+  <!-- Sister portrait illustration -->
+  <g filter="url(#shadow2)">
+    <!-- Long wavy hair back -->
+    <path d="M110 180 C110 60 290 60 290 180 C290 280 270 340 250 360 C230 330 210 270 200 270 C190 270 170 330 150 360 C130 340 110 280 110 180 Z" fill="#3E2723" />
+    <!-- Clothes (cute stylish top) -->
+    <path d="M120 380 C120 310 155 275 200 275 C245 275 280 310 280 380 Z" fill="#F472B6" />
+    <path d="M180 275 C190 295 210 295 220 275 Z" fill="#FDF2F8" />
+    <!-- Neck -->
+    <rect x="188" y="240" width="24" height="40" rx="10" fill="#FFD8C9" />
+    <!-- Face -->
+    <ellipse cx="200" cy="180" rx="56" ry="66" fill="#FFE5D9" />
+    <!-- Hair bangs stylish -->
+    <path d="M144 160 C160 120 240 120 256 160 C240 135 220 135 200 148 C180 135 160 135 144 160 Z" fill="#3E2723" />
+    <!-- Hair clip -->
+    <path d="M245 140 Q255 135 260 145" stroke="#FBBF24" stroke-width="5" stroke-linecap="round"/>
+    <!-- Blush -->
+    <ellipse cx="165" cy="195" rx="12" ry="7" fill="#F472B6" opacity="0.5" />
+    <ellipse cx="235" cy="195" rx="12" ry="7" fill="#F472B6" opacity="0.5" />
+    <!-- Eyes - playful cute sparkle -->
+    <circle cx="175" cy="175" r="5" fill="#3E2723" />
+    <circle cx="173" cy="173" r="1.5" fill="#FFF" />
+    <circle cx="225" cy="175" r="5" fill="#3E2723" />
+    <circle cx="223" cy="173" r="1.5" fill="#FFF" />
+    <!-- Eyelashes -->
+    <path d="M168 170 L163 166 M182 170 L187 166" stroke="#3E2723" stroke-width="2" stroke-linecap="round"/>
+    <path d="M218 170 L213 166 M232 170 L237 166" stroke="#3E2723" stroke-width="2" stroke-linecap="round"/>
+    <!-- Sweet smile -->
+    <path d="M190 205 Q200 216 210 205" stroke="#BE185D" stroke-width="2.8" stroke-linecap="round" fill="none" />
+  </g>
+</svg>
